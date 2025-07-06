@@ -1,0 +1,48 @@
+{
+  "name": "glitch-hello-node",
+  "version": "0.1.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "@tastekim/url-shortener": "latest",
+    "axios": "latest",
+    "atob": "latest",
+    "body-parser": "latest",
+    "btoa": "latest",
+    "cors": "latest",
+    "multer": "latest",
+    "dotenv": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "gtts": "latest",
+    "isgd": "latest",
+    "linkify-it": "latest",
+    "mathjs": "latest",
+    "node-cleanuri": "latest",
+    "marked": "^2.1.0",
+    "node-google-translate-skidz": "latest",
+    "node-short-url-normal": "latest",
+    "node-telegram-bot-api": "latest",
+    "node-url-shortener": "latest",
+    "tiny-url-generator": "latest",
+    "tinyurl": "latest",
+    "turl": "latest",
+    "morgan": "latest",
+    "form-data": "latest",
+    "node-fetch": "^2.6.7",
+    "vgd": "latest"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}
