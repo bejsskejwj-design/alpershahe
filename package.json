@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "run-build": "npm install",
+    "build": "npm install",
+    "run build": "npm install"
   },
   "engines": {
     "node": "16.x"
