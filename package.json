@@ -1,10 +1,9 @@
 {
   "name": "glitch-hello-node",
   "version": "0.1.0",
-  "type": "module",
-  "main": "server.mjs",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.js"
   },
   "dependencies": {
     "@tastekim/url-shortener": "latest",
