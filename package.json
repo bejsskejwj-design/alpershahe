@@ -6,9 +6,6 @@
   "scripts": {
     "start": "node server.mjs"
   },
-  "engines": {
-    "node": "16.x"
-  },
   "dependencies": {
     "@tastekim/url-shortener": "latest",
     "axios": "^1.11.0",
