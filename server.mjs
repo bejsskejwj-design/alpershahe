@@ -1,4 +1,4 @@
-import axios from 'axios';
+const axios = require('axios');
 
 const serverUrl = process.env.SERVER_URL;
 
