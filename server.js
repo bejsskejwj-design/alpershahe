@@ -1,3 +1,4 @@
+require('dotenv').config();
 const axios = require('axios');
 
 const serverUrl = process.env.SERVER_URL;
