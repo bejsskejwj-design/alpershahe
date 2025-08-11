@@ -5,34 +5,39 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@tastekim/url-shortener": "latest",
-    "axios": "^1.11.0",
-    "atob": "^2.1.2",
-    "body-parser": "^2.2.0",
-    "btoa": "^1.2.1",
-    "cors": "^2.8.5",
+    "axios": "latest",
+    "atob": "latest",
+    "body-parser": "latest",
+    "btoa": "latest",
+    "cors": "latest",
     "multer": "latest",
     "dotenv": "latest",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "gtts": "^0.2.1",
-    "isgd": "^1.1.3",
-    "linkify-it": "^5.0.0",
+    "ejs": "latest",
+    "express": "latest",
+    "gtts": "latest",
+    "isgd": "latest",
+    "linkify-it": "latest",
     "mathjs": "latest",
     "node-cleanuri": "latest",
-    "marked": "^16.1.2",
-    "node-google-translate-skidz": "^1.1.2",
+    "marked": "^2.1.0",
+    "node-google-translate-skidz": "latest",
     "node-short-url-normal": "latest",
-    "node-telegram-bot-api": "^0.66.0",
+    "node-telegram-bot-api": "latest",
     "node-url-shortener": "latest",
     "tiny-url-generator": "latest",
     "tinyurl": "latest",
     "turl": "latest",
+    "jimp": "latest",
     "morgan": "latest",
     "form-data": "latest",
     "node-fetch": "^2.6.7",
-    "vgd": "latest"
+    "vgd": "latest",
+    "qr-util": "latest"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/glitch-hello-node"
