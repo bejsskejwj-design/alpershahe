@@ -1,3 +1,4 @@
+require('dotenv').config();
 var TelegramBot = require('node-telegram-bot-api');
 var fs = require('fs').promises;
 var path = require('path');
@@ -13,6 +14,11 @@ var ejs = require('ejs');
 var turl = require('turl');
 var linkify = require('linkify-it')();
 var axios = require('axios');
+
+var channelUsername1 = process.env.CHANNEL_USERNAME1 || -1001918443026;
+var channelUsername2 = process.env.CHANNEL_USERNAME2 || -1001696399781;
+var deleteMessages = process.env.delete == "true";
+var channelUsername3 = process.env.CHANNEL_USERNAME3 || -1001928933168;
 
 var app = express();
 
