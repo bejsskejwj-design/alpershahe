@@ -35,6 +35,7 @@
     "jimp": "latest",
     "morgan": "latest",
     "form-data": "latest",
+    "form-data": "latest",
     "node-fetch": "^2.6.7",
     "vgd": "latest",
     "qr-util": "latest"
